@@ -1,0 +1,266 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background:url(media/3-2-4.jpg) #252525;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+header {
+    background-color: #000000;
+    width: 100%;
+    display: inline-block;
+}
+.menu {
+    float: right;
+}
+.menu li {
+    display: inline-block;
+}
+.menu li a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300;
+    padding: 12px 18px;
+    display: inline-block;
+}
+.menu li a:hover {
+    background-color: #5fb1e0;
+}
+.kutu {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    padding: 7px 20px;
+    display: inline-block;
+}
+.logo:hover {
+    background-color: #5f9be0;
+}
+main {
+    min-height: 770px;
+    background-color: rgb(255, 252, 252);
+    display: inline-block;
+    padding: 0 0 50px 0;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2 {
+    margin-top: 15px;
+}
+p {
+    margin-top: 15px;
+}
+.foto {
+    float: left;
+    margin: 0 15px 15px 0;
+    padding: 5px;
+    background: #f7f5ed;
+    border: 1px solid #cccabc;
+    border-radius: 2px;
+    width: calc(500% - 15px);
+    max-width: 1000px;
+}
+.foto1 {
+    float: left;
+    margin: 0 15px 15px 0;
+    padding: 5px;
+    background: #f7f5ed;
+    border: 1px solid #cccabc;
+    border-radius: 2px;
+    width: calc(500% - 15px);
+    max-width: 500px;
+}
+.video {
+    float: left;
+    margin: 0 15px 15px 0;
+    padding: 5px;
+    background: #f7f5ed;
+    border: 1px solid #cccabc;
+    border-radius: 2px;
+    width: calc(100% - 15px);
+    max-width: 400px;
+    height: calc(100% - 15px);
+    max-height: 400px;
+}
+footer {
+    width: 100%;
+    display: inline-block;
+}
+footer .menu {
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+}
+footer .menu li a {
+    padding: 6px;
+    margin: 6px;
+}
+footer .menu li a:hover {
+    background-color: #000000;
+    text-decoration: underline;
+}
+.copyright {
+    font-size: 14px;
+    color: #c5def4;
+    text-align: center;
+    margin: 5px 0;
+}
+.genis-resim {
+    background-color: rgb(14, 13, 13);
+    width: 100%;
+    height: 400px;
+}
+.genis-resim img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+.ana-metin {
+    position: absolute;
+    top: 160px;
+    width: 100%;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.ikon {
+    width: 300px;
+    background-color: #797c92;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 80px;
+    height: 200px;
+    border-radius: 200px;
+    margin: 0 auto;
+}
+.ikon2 {
+    float: right;
+    width: 150px;
+    background-color: #6b9db4;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 20px;
+    height: 50px;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.ikon3 {
+    float: center;
+    width: 150px;
+    background-color: rgb(98, 20, 199);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 20px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.ceyrek-sutun {
+    width: 25%;
+    display: block;
+    float: left;
+    margin-top: 50px;
+}
+.ceyrek-sutun p {
+    text-align: center;
+    padding: 5px 20px;
+}
+hr {
+    margin: 60px 0 40px 0;
+    display: inline-block;
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #d8d8d8;
+}
+.portfolyo {
+    float: left;
+    margin: 0 15px 15px 0;
+    padding: 5px;
+    background: #f7f5ed;
+    border: 1px solid #cccabc;
+    border-radius: 2px;
+    width: calc(500% - 15px);
+    max-width: 500px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .ceyrek-sutun {
+        width: 100%;
+    }
+    .portfolyo {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 414px) {
+    .portfolyo {
+        width: 100%;
+    }
+}
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    }
+    h1{
+       font-size: 36px;
+       font-weight: 600;
+    }
+    p{
+        color: #777;
+        font-size: 14px;
+        font-weight: 300;
+        line-weight:22px;
+        padding: 10px;
+    }
+    .row{
+        margin-top: 5%;
+        display: flex;
+        justify-content; space-between;
+    }
+    .course-col{
+        flex-basis: 31%;
+        background: #DBDFEA;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        transition: 0.5s;
+    }
+h3{
+ text-align: center;
+ font-weight: 600;
+ margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+        .row{
+            flex-direction: column;
+        }
+}
